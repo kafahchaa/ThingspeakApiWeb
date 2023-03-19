@@ -1,15 +1,72 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="script.js"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Temperature</h1>
-    <h2 id="field-1">--</h2>
-    <h2 id="field-2">--</h2>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/77fa727d74.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Tugas Modul 3 Deployment</title>
+</head>
+<body>
+    <section class="sec">
+        <div class="running-text"><h1><span class="auto-input"></span></h1></div>
+        <div class="margin-top">
+        <div class="card">
+            <div class="content">
+                <div class="card-text">
+                    <div class="card-image">
+                        <img src="img/p2.jpeg" alt="">
+                    </div>
+                    <h4>About Me</h4>
+                    <ul>
+                        <li>Nama    : Chantika Rahma Galih Abu A'syifa</li>
+                        <li>NIM     : 1101213128</li>
+                        <li>Kelas   : TT-45-02</li>
+                        <li>Jurusan : S1 Teknik Telekomunikasi</li>
+                    </ul>
+                </div>
+                    <a class="button" href="https://instagram.com/chantikarahmaa_" target="_blank">
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <span>Instagram</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+          <div class="content">
+              <div class="card-text">
+                  <div class="card-image">
+                      <img src=" " alt="">
+                  </div>
+                  <h4>Description</h4>
+                  <ul>
+                      <li><h2>PirState :</h2></li>
+                      <li>  <h2 id="PirState">--</h2> </li>
+                      <li><h2>Temperature (°C) :</h2></li>
+                      <li>  <h2 id="Temperature">--</h2> </li>
+                      <li><h2>Kelembapan (%) : </h2></li>
+                      <li> <h2 id="Kelembapan">--</h2> </li>
+                  </ul>
+              </div>
+              </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    </section>
+
+<script>
+    let typed = new Typed(".auto-input",{
+    strings: ["Tugas Modul 3", "Deployment"],
+    typeSpeed: 150,
+    backSpeed: 80,
+    loop: true
+})
+</script>
+</body>
 </html>

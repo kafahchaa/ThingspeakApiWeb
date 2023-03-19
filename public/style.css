@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+}
+
+section {
+  position: relative;
+  background-image: url("charaa.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s;
+}
+
+section .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 280px;
+  height: 300px;
+  background: rgb(193, 222, 220);
+  box-shadow: 0 15px 25px rgba(141, 134, 134, 0.25);
+  border-radius: 40px;
+  margin: 30px;
+  transition: background 0.5s;
+}
+
+section .card .content,
+section .card .card-text {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section .card .card-text h4 {
+  font-weight: 800;
+  width: 200px;
+  height: 60px;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section .card .card-text li {
+  padding-left: 10px;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+  font-size: 0.8em;
+  height: 30px;
+  width: 250px;
+  list-style-type: none;
+  line-height: 15px;
+}
+
+section .card .card-text ul {
+  margin-bottom: 30px;
+}
+
+section .card .button {
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+  overflow: hidden;
+}
+
+section .card .button .icon {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 40px;
+}
+
+section .card .button:hover {
+  width: 150px;
+}
+
+section .card .button:hover .icon {
+  background: #e1306c;
+  transition: all 0.3s ease-out;
+  color: #fff;
+}
+
+section .card .content a {
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+section .running-text {
+  position: absolute;
+  top: 40px;
+  width: 500px;
+  height: 100px;
+  font-size: 2em;
+  text-align: center;
+}
